@@ -1,15 +1,5 @@
-/* ============================================================
-   ELARA VOSS® — hero orb (Motion Spec 01)
-   Three.js: icosahedron + fresnel shader + vertex noise
-   displacement, mouse parallax (lerp 0.06), lime satellite on
-   an elliptical orbit. Glow is shader rim + CSS radial (no
-   post-processing pass — keeps the canvas transparent and the
-   frame budget on mid-range GPUs).
-   Spec 09: DPR capped at 2, render loop paused off-screen,
-   skipped entirely below 768px and for prefers-reduced-motion.
-   ============================================================ */
 
-import * as THREE from 'three';
+ import * as THREE from 'three';
 
 const container = document.getElementById('orb');
 const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;

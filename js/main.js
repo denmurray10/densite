@@ -1,10 +1,3 @@
-/* ============================================================
-   ELARA VOSS® — motion system
-   GSAP 3.13 + ScrollTrigger + SplitText + Lenis
-   Implements the Figma "Motion Spec" board (specs 02–09).
-   Spec 01 (Three.js orb) lives in js/orb.js.
-   ============================================================ */
-
 (() => {
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const finePointer = window.matchMedia('(pointer: fine)').matches;
